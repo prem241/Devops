@@ -32,4 +32,11 @@ git checkout branch1
 # same logic works for sprint branch as to master for rebase 
 git rebase master
 
+# Save fragment - temporarily store all modified files
+git stash
+
+# pop stash
+git stash pop
+
+
 
