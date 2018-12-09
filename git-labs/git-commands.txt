@@ -14,3 +14,8 @@ git commit -m "first commit"
 # move changes to remote repo
 git push
 
+# create new file
+touch.exe reset.txt
+
+# revert back added file
+git reset reset.txt
