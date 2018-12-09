@@ -38,4 +38,19 @@ git stash
 # pop stash
 git stash pop
 
+# merge - checkout branch to which you want to merge another branch code
+# here want to merge all changes to master from branch1
+git checkout master
+git merge branch1
+
+# tagging
+# create a tag with message
+git tag -a release1 -m "prod release 1.0"
+
+# list tags
+git tag
+
+# push tag to remote with tag name
+git push origin release1
+
 
