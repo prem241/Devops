@@ -26,3 +26,10 @@ git branch branch1
 # checkout branch
 git checkout branch1
 
+# changing base - 
+# create a branch from master, add changes and do commit, meanwhile someone pushed changes to master branch
+# in order to bring latest master rebase your branch to master
+# same logic works for sprint branch as to master for rebase 
+git rebase master
+
+
