@@ -19,3 +19,10 @@ touch.exe reset.txt
 
 # revert back added file
 git reset reset.txt
+
+# create branch from current branch
+git branch branch1
+
+# checkout branch
+git checkout branch1
+
